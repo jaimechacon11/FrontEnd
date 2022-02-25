@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos Compuestos</title>
+  </head>
+  <body>
+    <!-- Etiquetas / Inputs-->
+    <label for="Input1">Ejemplo de Input Básico </label><br />
+    <!-- Entradas / Inputs -->
+    <input type="text" id="Input1" name="Input1" value="Valor1" maxlength="10"/>
+    <br /><br />
+
+    <!-- Tipos de input -->
+    <label for="Input2">Input de Correo</label><br>
+    <input type="email" id="Input2" name="Input2" value="Valor2" /><br><br>
+    
+    <label for="Input3">Input de Número</label><br>
+    <input type="number" id="Input3" name="Input3" /><br><br>
+
+    <label for="Input4">Input de Password</label><br>
+    <input type="password" id="Input4" name="Input4" value="Valor4" /><br><br>
+
+    <label for="Input5">Input de Teléfono</label><br>
+    <input type="tel" id="Input5" name="Input5" value="Valor5" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/><br><br>
+
+    <label for="Input6">Input de URL</label><br>
+    <input type="url" id="Input6" name="Input6" value="Valor6" /><br><br>
+
+    <!-- Inputs de checkbox-->
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="True"/>
+    <label for="vehicle1">Tacos con cebolla</label><br>
+
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="True"/>
+    <label for="vehicle2">Tacos con carne</label><br>
+
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="True"/>
+    <label for="vehicle3">Tacos con salsa</label><br><br>
+    
+    <input type="color" id="color1" name="color1" value="Red"/>
+    <label for="color1">Input de Color</label><br><br>
+
+    <!--Fechas-->
+    <input type="date" id="color1" name="color1" value="Red"/>
+    <label for="color1">Fecha</label><br>
+    
+    <input type="datetime-local" id="color1" name="color1" value="Red"/>
+    <label for="color1">Fecha y Hora</label><br>
+
+    <input type="week" id="color1" name="color1" value="Red"/>
+    <label for="color1">Semanas</label><br>
+
+    <input type="time" id="color1" name="color1" value="Red"/>
+    <label for="color1">Hora</label><br>
+
+    <input type="month" id="color1" name="color1" value="Red"/>
+    <label for="color1">Mes</label><br><br>
+
+    <!-- Tipo archivo-->
+    
+    <label for="color1">Input de Archivo</label><br>
+    <input type="file" id="color1" name="color1" value="Red" multiple/><br><br>
+
+    <!-- Inputs de radiobutton-->
+
+    <input type="radio" id="vehicle1" name="radioselect" value="True"/>
+    <label for="vehicle1">Tacos con cebolla</label><br>
+
+    <input type="radio" id="vehicle2" name="radioselect" value="True"/>
+    <label for="vehicle2">Tacos con carne</label><br>
+
+    <input type="radio" id="vehicle3" name="radioselect" value="True"/>
+    <label for="vehicle3">Tacos con salsa</label><br><br>
+
+    <!-- Inputs de Rango-->
+
+    <label for="vehicle1">Volumen (Entre 0 y 50)</label><br>
+    <input type="range" list="tickmarks" step="10"/><br>
+    <datalist id="tickmarks">
+        <option value="0" label="0%"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50" label="50%"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100" label="100%"></option>
+    </datalist>
+
+    <input type="reset"><br>
+    <input type="submit"><br>
+    
+    <input type="button" id="boton1" name="boton1" value="Boton1" onclick="alert('BIENVENIDOS!')"><br>
+    
+  </body>
+</html>
