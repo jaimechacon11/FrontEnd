@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos SweetCake</title>
+</head>
+<body>
+    <h1>Comienza con tu pedido de Sabor</h1>
+
+    <form action="./pedido.js">
+        <h2>Datos Personales</h2>
+
+        <label for="nombre">Ingresa tu nombre</label><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo"><br><br>
+
+        <label for="telefono">Ingresa tu número telefónico</label><br>
+        <input type="tel" name="telefono" id="telefono" maxlength="10" placeholder="Número de Teléfono"><br><br>
+
+        <label for="correo">Ingresa tu correo electrónico</label><br>
+        <input type="email" name="correo" id="correo" placeholder="Correo Electrónico"><br><br>
+
+        <h2>Descripción del Pastel</h2>
+        <h3>¿De que sabor quieres tu pastel?</h3>
+
+        <input type="checkbox" name="chocolate" id="chocolate">
+        <label for="chocolate"> Pastel de Chocolate</label><br>
+        <label for="chocolate">Disponibles : </label>
+        <label for="chocolate">11</label><br>
+
+        <input type="checkbox" name="fresa" id="fresa">
+        <label for="fresa"> Pastel de Fresa</label><br>
+        <label for="chocolate">Disponibles : </label>
+        <label for="chocolate">46</label><br>
+
+        <input type="checkbox" name="durazno" id="durazno">
+        <label for="durazno"> Pastel de Durazno</label><br>
+        <label for="chocolate">Disponibles : </label>
+        <label for="chocolate">44</label><br>
+
+        <input type="checkbox" name="mango" id="mango">
+        <label for="mango"> Pastel de Mango</label><br>
+        <label for="chocolate">Disponibles : </label>
+        <label for="chocolate">24</label><br>
+        
+        <h3>¿Qué complementos quieres para tu pastel?</h3>
+
+        <input type="checkbox" name="chispas_chocolate" id="chispas_chocolate">
+        <label for="chispas_chocolate"> Chispas de Chocolate</label><br>
+        <label for="chocolate">Disponibles : </label>
+        <label for="chocolate">45</label><br>
+
+        <input type="checkbox" name="chipas_colores" id="chipas_colores">
+        <label for="chipas_colores"> Chispas de colores</label><br>
+        <label for="chocolate">Disponibles : </label>
+        <label for="chocolate">78</label><br>
+
+        <input type="checkbox" name="shot" id="shot">
+        <label for="shot"> Shot de Café</label><br>
+        <label for="chocolate">Disponibles : </label>
+        <label for="chocolate">55</label><br>
+
+        <input type="checkbox" name="velas" id="velas">
+        <label for="velas"> Velas</label><br>
+        <label for="chocolate">Disponibles : </label>
+        <label for="chocolate">98</label><br><br><br>
+
+        <input type="submit" value="Enviar Pedido" onclick="getData()">
+
+    </form>
+</body>
+</html>
