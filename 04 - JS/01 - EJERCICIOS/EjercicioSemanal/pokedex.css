@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("./assets/img/fondo.jpg");
+  background-repeat: repeat;
+  background-size: 100% auto;
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.dex {
+  height: 600px;
+  width: 900px;
+  background: url("./assets/img/dex.png");
+  background-size: 900px 600px;
+  text-align: center;
+  display: flex;
+}
+.title {
+  height: 70px;
+  width: 220px;
+  margin-top: 50px;
+  margin-left: 230px;
+}
+.tt {
+  height: 70px;
+  width: 220px;
+}
+.nompk{
+  margin-top: 35px;
+  font-weight: bold;
+}
+.name {
+  height: 180px;
+  width: 287px;
+  margin-top: -8px;
+  margin-left: 80px;
+  background: rgb(255, 255, 255);
+  border-radius: 10%;
+  padding: 5px;
+}
+.in {
+  height: 170px;
+  width: 200px;
+}
+.nombre {
+  height: 35px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+.ino {
+  height: 35px;
+  width: 250px;
+  border-radius: 10px;
+}
+.boton {
+  height: 65px;
+  width: 146px;
+  margin-top: 88px;
+  margin-left: 105px;
+}
+.botonn {
+  height: 65px;
+  width: 146px;
+  border-radius: 10px;
+  background: url("./assets/img/boton.png");
+  background-size: 145px 60px;
+}
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stats {
+  height: 20px;
+  width: 265px;
+  margin-top: 35px;
+  margin-left: 105px;
+  color: yellow;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  font-weight: bolder;
+}
+.an{
+  display: flex;
+  margin-top: -15px;
+}
+.ns {
+  height: 20px;
+  width: 265px;
+  border-radius: 10px;
+  margin-left: -60px;
+}
+.peso {
+  height: 20px;
+  width: 80px;
+  margin-top: 260px;
+  margin-left: 70px;
+  color: yellow;
+  background: #033109;
+  font-weight: bold;
+}
+.pe{
+    margin-top: 0;
+    
+}
+.experiencia {
+  height: 20px;
+  width: 120px;
+  margin-top: 260px;
+  margin-left: 90px;
+  color: yellow;
+  background: #033109;
+  font-weight: bold;
+}
+.ex{
+    margin-top: 0;
+    margin-left: -8px;
+}
+.tipo {
+  height: 20px;
+  width: 120px;
+  margin-top: 185px;
+  margin-left: 130px;
+  color: yellow;
+  background: #033109;
+  font-weight: bold;
+}
+.ti{
+    margin-top: 0;
+    margin-left: -20px;
+}
+

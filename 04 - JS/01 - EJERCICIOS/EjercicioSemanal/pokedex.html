@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke-DeX</title>
+    <link rel="stylesheet" href="./pokedex.css">
+</head>
+<body>
+    <section class="dex">
+        <div class="content">
+            <div class="title">
+                <img class="tt" src="./assets/img/titulo.svg" alt="titulo">
+            </div>
+            <div class="nompk">
+                <p class="nomp" id="nomp" name="nomp">Nombre del Pokemón:</p>
+            </div>
+            <div class="name">
+                <img class="in" src="./assets/img/pokebola.png" alt="Pokemon" width="150px" id="pokeImg"><br>
+            </div>
+            <div class="nombre">
+                <input class="ino" type="text" placeholder="Ingresa Nombre Pokemón (Ej.pikachu)" name="pokeName" id="pokeName"><br>
+            </div>
+            <div class="boton">
+                <button class="botonn" onclick="fetchPokemon()"></button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="tipo">
+                <p class="ti" id="tipo" name="tipo"></p>
+            </div>
+            <div class="stats">
+                <div class="an">
+                    <p class="n0" id="a0" name="a0"></p>
+                </div>
+                <div class="an">
+                    <p class="n1" id="a1" name="a1"></p>
+                </div>
+                <div class="an">
+                    <p class="n2" id="a2" name="a2"></p>
+                </div>
+                <div class="an">
+                    <p class="n3" id="a3" name="a3"></p>
+                </div>
+                <div class="an">
+                    <p class="n4" id="a4" name="a4"></p>
+                </div>
+                <div class="an">
+                    <p class="n5" id="a5" name="a5"></p>
+                </div>
+            </div>
+            <div class="final">
+                <div class="experiencia">
+                    <p class="ex" id="experiencia" name="experiencia"></p>
+                </div>
+                <div class="peso">
+                    <p class="pe" id="peso" name="peso"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
